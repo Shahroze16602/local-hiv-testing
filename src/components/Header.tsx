@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export const Header = () => {
@@ -7,7 +8,7 @@ export const Header = () => {
         <div className="flex  items-end">
           <div className="flex-none">
             <a href="index.html">
-              <img
+              <Image
                 src="/logo.gif"
                 alt="Logo"
                 className="w-[288px] h-[65px] block"

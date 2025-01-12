@@ -11,10 +11,10 @@ type StatesData = {
 };
 
 interface props {
-    testName : String,
+    testName: string,
 }
 
-const StatesTable = ({testName}: props) => {
+const StatesTable = ({ testName }: props) => {
     const data: StatesData = statesData;
     const states = Object.keys(data);
 

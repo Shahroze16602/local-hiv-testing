@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export const Footer = () => {
@@ -13,14 +15,14 @@ export const Footer = () => {
                 height: "49px",
               }}
             >
-              <img src="/call-left.gif" alt="Call Left" className="h-full" />
+              <Image src="/call-left.gif" alt="Call Left" className="h-full" />
               <div className="flex items-center justify-center text-white font-bold">
                 <span className="text-lg">Call NOW for Testing</span>
                 <span id="numberassigned_2" className="ml-2 text-lg">
                   000.000.0000
                 </span>
               </div>
-              <img
+              <Image
                 src="/call-right.gif"
                 alt="Call Right"
                 className="h-full"
@@ -59,7 +61,7 @@ export const Footer = () => {
                 Tags: confidential, gonorrhea testing, chlamydia testing, syphilis testing, accurate, hiv testing, std screening, std symptoms, rapid, std blood tests, hepatitis testing, std tests, reliable, std clinic, std diagnosis, local, tests for std, std chlamydia, std information, easy, herpes testing, std gonorrhea, affordable, confidential testing, std info, std symptom, std infection, convenient, std clinics, std herpes, std testing locations, std treatment, hiv std, std syphilis, hpv testing, anonymous, aids testing, home std tests, std symptons, std facts, std disease, symptoms of std, sti testing, health std, private, testing laboratories, quick, std testing, pictures of stds, chlamydia symptoms, std symptoms, syphilis, symptoms of chlamydia, clinics, bladder infection, list of stds, gonorrhea symptoms, gonorrhea, fast, confidential std testing, std photos, pictures of chlamydia, pictures of std, stds, photo of syphilis, std symptoms in women
                 <br />
                 <span id="botlinks">
-                  <a href="/" className="text-center font-sans text-[13px] font-normal text-[#666768] no-underline hover:text-[#f96808] hover:underline">HIV Testing Clinics</a>
+                  <Link href="/" className="text-center font-sans text-[13px] font-normal text-[#666768] no-underline hover:text-[#f96808] hover:underline">HIV Testing Clinics</Link>
                 </span>
               </h1>
               <p className="text-[#a7a7a7] text-[0.62em] text-center">

@@ -1,8 +1,8 @@
 import React from "react";
 
 interface props {
-    stateName: String | null,
-    testName: String,
+    stateName: string | null,
+    testName: string,
 };
 
 export const StateArticle = ({ stateName, testName }: props) => {
@@ -29,7 +29,7 @@ export const StateArticle = ({ stateName, testName }: props) => {
                         <strong>Engaging in unprotected sex with new partners:</strong> HIV can be transmitted through vaginal, anal, and oral sex without the use of protection, such as condoms or dental dams. Properly following all instructions for condom use and anti-infection gels can reduce your risk of transmission.
                     </li>
                     <li>
-                        <strong>Engaging in unprotected anal sex:</strong> The soft tissue of the anus is especially prone to micro-tears, making it easier for HIV to enter the body. It’s essential to use thicker, tear-resistant condoms to protect against transmission during anal sex.
+                        <strong>Engaging in unprotected anal sex:</strong> The soft tissue of the anus is especially prone to micro-tears, making it easier for HIV to enter the body. It&apos;s essential to use thicker, tear-resistant condoms to protect against transmission during anal sex.
                     </li>
                     <li>
                         <strong>Sharing hypodermic needles:</strong> HIV can be transmitted through blood, so using unclean needles for drug use, tattoos, or body piercings can put you at risk. Always ensure that fresh needles are used and properly disposed of after use.
@@ -38,7 +38,7 @@ export const StateArticle = ({ stateName, testName }: props) => {
                         <strong>Having a history of other sexually transmitted infections (STIs):</strong> People who have previously been diagnosed with STIs such as syphilis, gonorrhea, herpes, or hepatitis may be at higher risk for HIV.
                     </li>
                     <li>
-                        <strong>Having a partner with high-risk traits:</strong> If your partner is engaging in behaviors such as those listed above, it's important to consider testing to protect your health.
+                        <strong>Having a partner with high-risk traits:</strong> If your partner is engaging in behaviors such as those listed above, it&apos;s important to consider testing to protect your health.
                     </li>
                 </ul>
                 <h3 className="py-2 font-bold">
@@ -63,7 +63,7 @@ export const StateArticle = ({ stateName, testName }: props) => {
                     How Confidential Local HIV Testing Works
                 </h3>
                 <p className="py-2">
-                    Taking the first step toward getting tested is simple. Make one simple phone call to us. We will schedule you at a <strong>local HIV testing</strong> lab location near you. Our process and service is designed to respect your privacy from the moment you reach out. When you call, we’ll help schedule a visit at a local HIV testing lab, clinic, or facility near you. The testing itself is quick and simple: a small sample of blood is taken and sent to a lab for professional analysis. The results will be shared directly with you, maintaining your complete privacy.
+                    Taking the first step toward getting tested is simple. Make one simple phone call to us. We will schedule you at a <strong>local HIV testing</strong> lab location near you. Our process and service is designed to respect your privacy from the moment you reach out. When you call, we&apos;ll help schedule a visit at a local HIV testing lab, clinic, or facility near you. The testing itself is quick and simple: a small sample of blood is taken and sent to a lab for professional analysis. The results will be shared directly with you, maintaining your complete privacy.
                 </p>
                 <h3 className="py-2 font-bold">
                     Confidential HIV Testing is About Empowerment
@@ -75,7 +75,7 @@ export const StateArticle = ({ stateName, testName }: props) => {
                     Take the First Step Today
                 </h3>
                 <p className="py-2">
-                    Making that first call to us is crucial—it’s the gateway to testing, privacy, and peace of mind. Our network of labs are located throughout the entire United States and we’re here to help you schedule a visit at one of those <strong>local HIV testing</strong> lab locations near you. The process is discreet, confidential, and straightforward. No one else needs to know your results unless you decide to share them. Confidential testing for HIV is about protecting yourself, and about taking control of your health, health information, and your future. Be empowered in knowing your status. It’s an essential step toward maintaining your well-being and making informed decisions for your future. Call today to schedule your <strong>confidential HIV test</strong>. We are here to help and support you every step of the way. Your health is in your hands—make the call now.
+                    Making that first call to us is crucial—it&apos;s the gateway to testing, privacy, and peace of mind. Our network of labs are located throughout the entire United States and we&apos;re here to help you schedule a visit at one of those <strong>local HIV testing</strong> lab locations near you. The process is discreet, confidential, and straightforward. No one else needs to know your results unless you decide to share them. Confidential testing for HIV is about protecting yourself, and about taking control of your health, health information, and your future. Be empowered in knowing your status. It&apos;s an essential step toward maintaining your well-being and making informed decisions for your future. Call today to schedule your <strong>confidential HIV test</strong>. We are here to help and support you every step of the way. Your health is in your hands—make the call now.
                 </p>
                 <p className="py-2">
                     <strong>Get tested today, know tomorrow.</strong>
@@ -90,12 +90,12 @@ export const StateArticle = ({ stateName, testName }: props) => {
                     choices you can make. It means being informed, knowing where you stand, and making decisions that
                     positively affect your future and well-being. And one of the best ways to do this in
                     <strong> {stateName} </strong> is through <strong> confidential HIV testing </strong> and STD testing.
-                    Whether you're in a committed relationship or living independently, regularly testing for HIV and
+                    Whether you&apos;re in a committed relationship or living independently, regularly testing for HIV and
                     other STDs is a smart, responsible choice that puts your health—and your privacy—at the forefront.
                 </p>
                 <p className="py-2">
                     We understand that privacy matters. When it comes to health, particularly something as personal as
-                    HIV testing, confidentiality isn’t just a luxury; it’s a necessity. Your health information is yours
+                    HIV testing, confidentiality isn&apos;t just a luxury; it&apos;s a necessity. Your health information is yours
                     and yours alone, unless you decide to share it. By choosing <strong> confidential HIV testing </strong>
                     in <strong> {stateName} </strong>, you are in complete control of who knows your status and when they
                     know it. This is your health, and your personal health information.
@@ -118,10 +118,10 @@ export const StateArticle = ({ stateName, testName }: props) => {
                     your status unless you choose to share it.
                 </p>
                 <p className="py-2">
-                    By contacting us today, you’re taking charge of your future health. It’s about being informed and
+                    By contacting us today, you&apos;re taking charge of your future health. It&apos;s about being informed and
                     empowered, especially when it comes to something as important as <strong> confidential HIV testing </strong>.
-                    Whether you’re experiencing symptoms, have had concerns in the past, or simply want to be proactive,
-                    we’re here to help. With our <strong> local HIV testing lab </strong> near you in <strong> {stateName} </strong>,
+                    Whether you&apos;re experiencing symptoms, have had concerns in the past, or simply want to be proactive,
+                    we&apos;re here to help. With our <strong> local HIV testing lab </strong> near you in <strong> {stateName} </strong>,
                     we ensure your test is quick, professional, and results are kept completely private.
                 </p>
                 <p className="py-2">
@@ -132,19 +132,19 @@ export const StateArticle = ({ stateName, testName }: props) => {
                 </p>
                 <p className="py-2">
                     <strong> Confidential HIV testing </strong> is about protecting your health information, and also allows you to
-                    be prepared and confident, knowing your status. It’s about empowerment—about being proactive in maintaining
+                    be prepared and confident, knowing your status. It&apos;s about empowerment—about being proactive in maintaining
                     your health and controlling your future. Regardless of whether you live in <strong> {stateName} </strong> or any
                     other state across the United States, your access to a <strong> local HIV testing center </strong> is just one
                     phone call away.
                 </p>
                 <p className="py-2">
                     Your journey toward health and privacy begins the moment you pick up the phone and call us. Make that call
-                    today. It’s the first step in securing peace of mind, maintaining privacy, and taking control of your health.
+                    today. It&apos;s the first step in securing peace of mind, maintaining privacy, and taking control of your health.
                 </p>
                 <p className="py-2">
                     In this world, your health and privacy must come first. Empower yourself to make informed decisions and
-                    take responsibility for your future. Whether you're in <strong> {stateName} </strong> or anywhere in the United
-                    States, we’re here to support you and conveniently schedule you at a <strong> local HIV testing clinic </strong>
+                    take responsibility for your future. Whether you&apos;re in <strong> {stateName} </strong> or anywhere in the United
+                    States, we&apos;re here to support you and conveniently schedule you at a <strong> local HIV testing clinic </strong>
                     by you. A professional will collect your sample, which will then be sent to the lab for testing. All it takes
                     is one phone call to us to get started.
                 </p>
@@ -176,7 +176,7 @@ export const StateArticle = ({ stateName, testName }: props) => {
                     This act of testing is about you—your body, your health, your future. Across the nation, we make it easy for you to access <strong>local STD testing clinics , local STD testing facilities ,</strong> or <strong>local STD testing labs</strong> near you. You take the first step by calling, and we guide you the rest of the way with understanding and discretion.
                 </p>
                 <p className="py-2">
-                    It’s time to acknowledge that taking care of your health is one of the most empowering acts you can do for yourself. <strong>Confidential STD testing</strong> is about more than just knowing if you are well; it is about stepping into the fullness of who you are—taking control of your body and your future. The process is painless, confidential, and easy to navigate. Our service offers the tools you need to protect yourself and those you care about, allowing you to walk forward with confidence.
+                    It&apos;s time to acknowledge that taking care of your health is one of the most empowering acts you can do for yourself. <strong>Confidential STD testing</strong> is about more than just knowing if you are well; it is about stepping into the fullness of who you are—taking control of your body and your future. The process is painless, confidential, and easy to navigate. Our service offers the tools you need to protect yourself and those you care about, allowing you to walk forward with confidence.
                 </p>
                 <p className="py-2">
                     Make the call to us today. It is the step toward a future where you are in full control. Your results will be handled with the utmost care and confidentiality. You will know what you need to know, and only you will know it unless you choose to share. You are the steward of your health, and by making this choice, you are embracing empowerment.
@@ -191,19 +191,19 @@ export const StateArticle = ({ stateName, testName }: props) => {
                     Confidential STD Testing in {stateName} - Empower Yourself with Privacy &amp; Control
                 </h1>
                 <p className="py-2">
-                    There's a lot of stigma surrounding sexually transmitted diseases, but the truth is, getting tested is an empowering and necessary step for everyone. Discovering that you have an STD can be overwhelming, but it's important to remember that early detection means control. Whether you're concerned about potential risks, protecting your loved ones, or simply getting the answers you need, <strong>STD testing in {stateName}</strong> is an essential part of maintaining your health, health information, and making informed choices for the future.
+                    There&apos;s a lot of stigma surrounding sexually transmitted diseases, but the truth is, getting tested is an empowering and necessary step for everyone. Discovering that you have an STD can be overwhelming, but it&apos;s important to remember that early detection means control. Whether you&apos;re concerned about potential risks, protecting your loved ones, or simply getting the answers you need, <strong>STD testing in {stateName}</strong> is an essential part of maintaining your health, health information, and making informed choices for the future.
                 </p>
                 <p className="py-2">
                     The most convenient and confidential way to find out your status is by contacting us. Our service offers a private, straightforward method for <strong>STD testing</strong>, so you can get the information you need without feeling embarrassed. With our network of <strong>local STD testing centers in {stateName}</strong> and across the United States, we can schedule your appointment without the discomfort of discussing such personal matters with someone you see regularly. Our confidential process means you can relax, ask questions, and receive expert advice from trained professionals, especially if the results come back unfavorable to you. With same-day appointments available, and fast, reliable results, getting tested has never been simpler or more discreet.
                 </p>
                 <p className="py-2">
-                    So, how do you know if you should get <strong>STD tested in {stateName}</strong>? The reality is that anyone who is sexually active could be at risk. STDs can be transmitted through unprotected sex, sharing needles, or through contact with contaminated blood. It's important to remember that confidential <strong>STD testing</strong> isn't just for those who suspect they've been exposed—it's for everyone who wants to take control of their health and health information. If you're pregnant or breastfeeding, it's especially crucial to know your <strong>STD status</strong> to protect your child. Confidential, <strong>local STD testing in {stateName}</strong> provides a safe, reliable, and private way to get the information you need to stay healthy and protect those around you.
+                    So, how do you know if you should get <strong>STD tested in {stateName}</strong>? The reality is that anyone who is sexually active could be at risk. STDs can be transmitted through unprotected sex, sharing needles, or through contact with contaminated blood. It&apos;s important to remember that confidential <strong>STD testing</strong> isn&apos;t just for those who suspect they&apos;ve been exposed—it&apos;s for everyone who wants to take control of their health and health information. If you&apos;re pregnant or breastfeeding, it&apos;s especially crucial to know your <strong>STD status</strong> to protect your child. Confidential, <strong>local STD testing in {stateName}</strong> provides a safe, reliable, and private way to get the information you need to stay healthy and protect those around you.
                 </p>
                 <p className="py-2">
                     Beyond protecting your loved ones, there are numerous reasons to find out your <strong>STD status</strong> as soon as possible. For one, if you test positive for an STD, you could be putting your current or future sexual partners at risk. Knowing your status allows you to take action, protect others, and, if necessary, start treatment. While there might not always be a cure for every <strong>STD</strong>, there are treatments available that can manage symptoms and prevent further complications. Taking control of your health means you can take proactive steps toward staying healthy and preventing the spread of infections.
                 </p>
                 <p className="py-2">
-                    Make the call now; contact our <strong>confidential STD testing</strong> hotline today. You can get the information you need in a way that's discreet, convenient, and most importantly, confidential. <strong>Get tested today, know tomorrow.</strong>
+                    Make the call now; contact our <strong>confidential STD testing</strong> hotline today. You can get the information you need in a way that&apos;s discreet, convenient, and most importantly, confidential. <strong>Get tested today, know tomorrow.</strong>
                 </p>
             </div>
 

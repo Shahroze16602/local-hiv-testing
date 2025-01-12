@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export const Hero = () => {
@@ -12,7 +13,7 @@ export const Hero = () => {
                     <div className="w-[90%] font-sans text-lg font-bold text-[#676767]">
                         <ul className="space-y-2">
                             <li className="flex items-center">
-                                <img
+                                <Image
                                     src="/symble.png"
                                     alt="Symbol"
                                     className="w-[39px] h-[29px]"
@@ -20,7 +21,7 @@ export const Hero = () => {
                                 <span className="ml-2">Convenient Same Day Appointments</span>
                             </li>
                             <li className="flex items-center">
-                                <img
+                                <Image
                                     src="/symble.png"
                                     alt="Symbol"
                                     className="w-[39px] h-[29px]"
@@ -28,7 +29,7 @@ export const Hero = () => {
                                 <span className="ml-2">Find a Local Lab in Your Area</span>
                             </li>
                             <li className="flex items-center">
-                                <img
+                                <Image
                                     src="/symble.png"
                                     alt="Symbol"
                                     className="w-[39px] h-[29px]"
@@ -38,7 +39,7 @@ export const Hero = () => {
                                 </span>
                             </li>
                             <li className="flex items-center">
-                                <img
+                                <Image
                                     src="/symble.png"
                                     alt="Symbol"
                                     className="w-[39px] h-[29px]"
@@ -48,7 +49,7 @@ export const Hero = () => {
                                 </span>
                             </li>
                             <li className="flex items-center">
-                                <img
+                                <Image
                                     src="/symble.png"
                                     alt="Symbol"
                                     className="w-[39px] h-[29px]"
@@ -112,14 +113,14 @@ export const Hero = () => {
                                 height: "49px",
                             }}
                         >
-                            <img src="/call-left.gif" alt="Call Left" className="h-full" />
+                            <Image src="/call-left.gif" alt="Call Left" className="h-full" />
                             <div className="flex items-center justify-center text-white font-bold">
                                 <span className="text-lg">Call NOW for Testing</span>
                                 <span id="numberassigned_2" className="ml-2 text-lg">
                                     000.000.0000
                                 </span>
                             </div>
-                            <img
+                            <Image
                                 src="/call-right.gif"
                                 alt="Call Right"
                                 className="h-full"
@@ -137,13 +138,13 @@ export const Hero = () => {
                                     backgroundSize: "contain",
                                 }}
                             >
-                                <img
+                                <Image
                                     src="/testfor-left.gif"
                                     alt="Test For Left"
                                     className="w-[7px] h-[33px]"
                                 />
                                 <div className="font-sans text-lg text-center font-bold w-full text-[#4482b7]">We Can Test For</div>
-                                <img
+                                <Image
                                     src="/testfor-right.gif"
                                     alt="Test For Right"
                                     className="w-[7px] h-[33px]"
@@ -163,7 +164,7 @@ export const Hero = () => {
                                         { text: "STD", href: "STD-Testing" },
                                     ].map((item, index) => (
                                         <li key={index} className="flex items-center">
-                                            <img
+                                            <Image
                                                 src="/arrow.gif"
                                                 alt="Arrow"
                                                 className="w-[26px] h-[20px]"
@@ -176,7 +177,7 @@ export const Hero = () => {
                                 </ul>
                             </div>
 
-                            <img
+                            <Image
                                 src="/testfor-bottom.gif"
                                 alt="Test For Bottom"
                                 className="w-full"

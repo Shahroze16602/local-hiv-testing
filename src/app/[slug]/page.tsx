@@ -15,8 +15,8 @@ type StatesData = {
     };
 };
 
-const SlugPage = async ({ params }: { params: { slug: string } }) => {
-    const { slug } = await params;
+const SlugPage = async ({ params }: { params: Promise<{ slug: string }> }) => {
+    const slug = (await params).slug;
 
     // Match different types of slugs
     const hivMatch = slug.match(/^(.*)-hiv-testing$/);

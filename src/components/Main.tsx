@@ -23,8 +23,8 @@ export const Main = () => {
         experiencing STD symptoms, you are highly encouraged to make an immediate appointment for testing. However, since
         the nature of these infections is highly personal and you may prefer to keep your personal health information
         private, including the details of your testing and results, it is important to use a trusted service for STD testing
-        that guarantees the confidentiality of your personal information. We are exactly that. We've streamlined the process
-        of getting tested for STDs, making it both confidential and incredibly convenient. You'll have access to a trusted
+        that guarantees the confidentiality of your personal information. We are exactly that. We&apos;ve streamlined the process
+        of getting tested for STDs, making it both confidential and incredibly convenient. You&apos;ll have access to a trusted
         testing lab location near you, dedicated to providing discreet and professional testing; and counseling to help with
         any results if needed (or ordered by you).
       </p>
@@ -33,7 +33,7 @@ export const Main = () => {
         many STDs often have no early symptoms, getting tested is the only way to know whether you have been infected. When
         you decide to get STD tested through us, you can expect to receive a same-day appointment for testing, and find out
         results in about a day or two (or at most up to three days). This eliminates the weeks of waiting you might face if
-        you try to get tested through other avenues, such as at-home kits, or through your doctor's office. It also avoids
+        you try to get tested through other avenues, such as at-home kits, or through your doctor&apos;s office. It also avoids
         the complications of insurance, which can have a significant impact. Plus, it ensures a fully confidential testing
         process, so you never have to feel embarrassed or uncomfortable discussing personal matters.
       </p>
