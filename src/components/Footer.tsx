@@ -15,7 +15,7 @@ export const Footer = () => {
                 height: "49px",
               }}
             >
-              <Image src="/call-left.gif" alt="Call Left" className="h-full" />
+              <Image src="/call-left.gif" alt="Call Left" className="h-full" width={329} height={49} />
               <div className="flex items-center justify-center text-white font-bold">
                 <span className="text-lg">Call NOW for Testing</span>
                 <span id="numberassigned_2" className="ml-2 text-lg">
@@ -26,6 +26,7 @@ export const Footer = () => {
                 src="/call-right.gif"
                 alt="Call Right"
                 className="h-full"
+                width={9} height={49}
               />
             </div>
           </div>

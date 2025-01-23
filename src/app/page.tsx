@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <Hero />
+      <Hero linkPattern={"{test_name}-Testing"} lowerCaseName={false}/>
       <Main />
       <StatesList testName="std" />
       <Footer />

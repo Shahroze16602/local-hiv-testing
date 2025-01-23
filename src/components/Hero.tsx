@@ -1,7 +1,15 @@
 import Image from "next/image";
 import React from "react";
 
-export const Hero = () => {
+interface props {
+    linkPattern: string,
+    lowerCaseName: boolean
+}
+
+export const Hero = ({ linkPattern, lowerCaseName } : props) => {
+
+    const tests: string[] = ["HIV", "Herpes", "Chlamydia", "Gonorrhea", "Syphilis", "Hepatitis", "Urinalysis", "CBC", "STD"]
+
     return (
         <div>
             <div className="w-[980px] rounded-[8px] bg-[#ebecec] p-4">
@@ -17,6 +25,7 @@ export const Hero = () => {
                                     src="/symble.png"
                                     alt="Symbol"
                                     className="w-[39px] h-[29px]"
+                                    width={39} height={29}
                                 />
                                 <span className="ml-2">Convenient Same Day Appointments</span>
                             </li>
@@ -25,6 +34,7 @@ export const Hero = () => {
                                     src="/symble.png"
                                     alt="Symbol"
                                     className="w-[39px] h-[29px]"
+                                    width={39} height={29}
                                 />
                                 <span className="ml-2">Find a Local Lab in Your Area</span>
                             </li>
@@ -33,6 +43,7 @@ export const Hero = () => {
                                     src="/symble.png"
                                     alt="Symbol"
                                     className="w-[39px] h-[29px]"
+                                    width={39} height={29}
                                 />
                                 <span className="ml-2">
                                     Caring Counselors - Sympathetic &amp; Understanding
@@ -43,6 +54,7 @@ export const Hero = () => {
                                     src="/symble.png"
                                     alt="Symbol"
                                     className="w-[39px] h-[29px]"
+                                    width={39} height={29}
                                 />
                                 <span className="ml-2">
                                     Affordable tests - Quick &amp; Accurate Results
@@ -53,6 +65,7 @@ export const Hero = () => {
                                     src="/symble.png"
                                     alt="Symbol"
                                     className="w-[39px] h-[29px]"
+                                    width={39} height={29}
                                 />
                                 <span className="ml-2">
                                     Questions answered - problems identified
@@ -113,7 +126,7 @@ export const Hero = () => {
                                 height: "49px",
                             }}
                         >
-                            <Image src="/call-left.gif" alt="Call Left" className="h-full" />
+                            <Image src="/call-left.gif" alt="Call Left" className="h-full" width={329} height={49} />
                             <div className="flex items-center justify-center text-white font-bold">
                                 <span className="text-lg">Call NOW for Testing</span>
                                 <span id="numberassigned_2" className="ml-2 text-lg">
@@ -124,6 +137,7 @@ export const Hero = () => {
                                 src="/call-right.gif"
                                 alt="Call Right"
                                 className="h-full"
+                                width={9} height={49}
                             />
                         </div>
                     </div>
@@ -142,35 +156,28 @@ export const Hero = () => {
                                     src="/testfor-left.gif"
                                     alt="Test For Left"
                                     className="w-[7px] h-[33px]"
+                                    width={7} height={33}
                                 />
                                 <div className="font-sans text-lg text-center font-bold w-full text-[#4482b7]">We Can Test For</div>
                                 <Image
                                     src="/testfor-right.gif"
                                     alt="Test For Right"
                                     className="w-[7px] h-[33px]"
+                                    width={7} height={33}
                                 />
                             </div>
                             <div className="bg-[#f4f4f4] border-l border-r border-[#d5d6d6]">
                                 <ul className="space-y-2 p-4">
-                                    {[
-                                        { text: "HIV", href: "HIV-Testing" },
-                                        // { text: "Herpes", href: "Herpes-Testing" },
-                                        // { text: "Chlamydia", href: "Chlamydia-Testing" },
-                                        // { text: "Gonorrhea", href: "Gonorrhea-Testing" },
-                                        // { text: "Syphilis", href: "Syphilis-Testing" },
-                                        // { text: "Hepatitis", href: "Hepatitis-Testing" },
-                                        // { text: "Urinalysis", href: "Urinalysis-Testing" },
-                                        // { text: "CBC", href: "CBC-Testing" },
-                                        { text: "STD", href: "STD-Testing" },
-                                    ].map((item, index) => (
+                                    {tests.map((item, index) => (
                                         <li key={index} className="flex items-center">
                                             <Image
                                                 src="/arrow.gif"
                                                 alt="Arrow"
                                                 className="w-[26px] h-[20px]"
+                                                width={26} height={20}
                                             />
-                                            <a href={item.href} className="text-sm font-bold text-[#666768] no-underline  ml-2 hover:text-[#f96808] hover:underline">
-                                                {item.text}
+                                            <a href={linkPattern.replace("{test_name}", lowerCaseName? item.toLowerCase() : item)} className="text-sm font-bold text-[#666768] no-underline  ml-2 hover:text-[#f96808] hover:underline">
+                                                {item}
                                             </a>
                                         </li>
                                     ))}
@@ -180,7 +187,7 @@ export const Hero = () => {
                             <Image
                                 src="/testfor-bottom.gif"
                                 alt="Test For Bottom"
-                                className="w-full"
+                                width={258} height={7}
                             />
                         </div>
                     </div>

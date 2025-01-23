@@ -11,6 +11,7 @@ export const Header = () => {
               <Image
                 src="/logo.gif"
                 alt="Logo"
+                width={288} height={65}
                 className="w-[288px] h-[65px] block"
               />
             </a>
