@@ -47,12 +47,12 @@ export const Footer = () => {
       <footer>
         <div className="w-[980px] p-0">
           <div className="text-center font-sans text-[13px] font-normal text-[#666768] no-underline">
-            <a href="/" className="hover:text-[#f96808] hover:underline">Home</a> |
-            <a href="About-Us" className="hover:text-[#f96808] hover:underline"> About Us</a> |
-            <a href="FAQ" className="hover:text-[#f96808] hover:underline"> FAQ</a> |
-            <a href="Terms" className="hover:text-[#f96808] hover:underline"> Terms &amp; Conditions</a> |
-            <a href="Privacy-Policy" className="hover:text-[#f96808] hover:underline"> Privacy Policy</a> |
-            <a href="Contact-Us" className="hover:text-[#f96808] hover:underline"> Contact Us</a>
+            <Link href="/" className="hover:text-[#f96808] hover:underline">Home</Link> |
+            <Link href="About-Us" className="hover:text-[#f96808] hover:underline"> About Us</Link> |
+            <Link href="FAQ" className="hover:text-[#f96808] hover:underline"> FAQ</Link> |
+            <Link href="Terms" className="hover:text-[#f96808] hover:underline"> Terms &amp; Conditions</Link> |
+            <Link href="Privacy-Policy" className="hover:text-[#f96808] hover:underline"> Privacy Policy</Link> |
+            <Link href="Contact-Us" className="hover:text-[#f96808] hover:underline"> Contact Us</Link>
             <br />
             <br />
             <div id="footer" className="bg-[#e6e6e6] py-[5px]">

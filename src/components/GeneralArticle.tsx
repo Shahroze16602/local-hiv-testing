@@ -114,6 +114,7 @@ export const GeneralArticle = ({ testName }: props) => {
                     </p>
                 </div>
             )}
+
         </>
     );
 };

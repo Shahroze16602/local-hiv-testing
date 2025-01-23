@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 export const Header = () => {
   return (
@@ -7,14 +8,14 @@ export const Header = () => {
       <div className="w-[980px]">
         <div className="flex  items-end">
           <div className="flex-none">
-            <a href="/">
+            <Link href="/">
               <Image
                 src="/logo.gif"
                 alt="Logo"
                 width={288} height={65}
                 className="w-[288px] h-[65px] block"
               />
-            </a>
+            </Link>
           </div>
           <div className="flex-grow h-[100px]"></div>
           <div className="text-right flex-none">
@@ -24,8 +25,8 @@ export const Header = () => {
             </div>
             <div className="w-[380px] p-0 border-collapse">
               <div className="text-right font-sans text-[13px] font-normal text-[#666768] no-underline">
-                <a href="About-Us.html" className="hover:text-[#f96808] hover:underline">About Us</a> |
-                <a href="FAQ.html" className="hover:text-[#f96808] hover:underline"> FAQ</a>
+                <Link href="About-Us" className="hover:text-[#f96808] hover:underline">About Us</Link> |
+                <Link href="FAQ" className="hover:text-[#f96808] hover:underline"> FAQ</Link>
               </div>
             </div>
             <div className="h-[15px]">&nbsp;</div>
