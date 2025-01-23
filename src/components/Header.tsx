@@ -7,7 +7,7 @@ export const Header = () => {
       <div className="w-[980px]">
         <div className="flex  items-end">
           <div className="flex-none">
-            <a href="index.html">
+            <a href="/">
               <Image
                 src="/logo.gif"
                 alt="Logo"
